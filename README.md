@@ -51,17 +51,31 @@ The implementation is intentionally standard-library only, modular, and suitable
 
 ## Execution Steps
 
+Create a virtual environment first:
+
+```powershell
+C:\Users\Sonam\AppData\Local\Programs\Python\Python311\python.exe -m venv .venv
+```
+
+Activate it in PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
 Run the simulator with the default input file:
 
-```bash
+```powershell
 python main.py
 ```
 
 Run it with a custom input file:
 
-```bash
+```powershell
 python main.py data.json
 ```
+
+If PowerShell blocks activation, run `Set-ExecutionPolicy -Scope Process RemoteSigned` in the current terminal first.
 
 The program writes `report.json`, `top_performer.csv`, and `delivery.log` into the project directory.
 
