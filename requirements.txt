@@ -1,0 +1,2 @@
+# FastBox Mystery Delivery System uses only the Python standard library.
+# No external packages are required.
