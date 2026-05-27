@@ -1,0 +1,5 @@
+2026-05-27 11:02:35,530 INFO: Package P1 assigned to A1 (warehouse W1 -> destination (30.0, 40.0)).
+2026-05-27 11:02:35,530 INFO: Package P2 assigned to A2 (warehouse W2 -> destination (70.0, 90.0)).
+2026-05-27 11:02:35,530 INFO: Package P3 assigned to A3 (warehouse W3 -> destination (105.0, 20.0)).
+2026-05-27 11:02:35,531 INFO: Package P4 assigned to A1 (warehouse W1 -> destination (10.0, 10.0)).
+2026-05-27 11:02:35,531 INFO: Package P5 assigned to A2 (warehouse W2 -> destination (40.0, 80.0)).

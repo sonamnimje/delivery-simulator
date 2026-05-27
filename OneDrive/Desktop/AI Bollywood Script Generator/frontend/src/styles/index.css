@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+:root {
+	color-scheme: dark;
+	--bg: #050505;
+	--panel: rgba(13, 13, 13, 0.88);
+	--text: #f5f5f5;
+	--muted: #b7b7b7;
+	--accent: #c59a6a;
+	--accent-strong: #d58b43;
+}
+
+html {
+	background: var(--bg);
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	color: var(--text);
+	font-family: 'Manrope', sans-serif;
+	background:
+		radial-gradient(circle at top, rgba(197, 154, 106, 0.08), transparent 30%),
+		radial-gradient(circle at bottom right, rgba(211, 75, 75, 0.08), transparent 26%),
+		linear-gradient(180deg, #070707 0%, #040404 100%);
+}
+
+#root {
+	min-height: 100%;
+}
+
+h1, h2, h3, .font-display {
+	font-family: 'Playfair Display', serif;
+}
+
+::selection {
+	background: rgba(197, 154, 106, 0.3);
+	color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.03);
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(197, 154, 106, 0.35);
+	border-radius: 999px;
+}
+
+.text-accent { color: var(--accent); }
